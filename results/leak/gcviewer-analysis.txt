@@ -1,0 +1,44 @@
+Nov 20, 2026 9:26:15 PM com.tagtraum.perf.gcviewer.GCViewer doMain
+INFO: GCViewer command line mode
+Nov 20, 2026 9:26:15 PM com.tagtraum.perf.gcviewer.imp.DataReaderFacade loadModel
+INFO: GCViewer version 1.37 (2026-05-25T19:26:09+0000)
+Nov 20, 2026 9:26:15 PM com.tagtraum.perf.gcviewer.imp.DataReaderFactory getDataReaderBySample
+INFO: File format: Oracle / OpenJDK unified jvm logging
+Nov 20, 2026 9:26:15 PM com.tagtraum.perf.gcviewer.imp.DataReaderUnifiedJvmLogging read
+INFO: Reading Oracle / OpenJDK unified jvm logging format...
+Nov 20, 2026 9:26:15 PM com.tagtraum.perf.gcviewer.imp.DataReaderUnifiedJvmLogging lineContainsParseableEvent
+INFO:  Using G1
+Nov 20, 2026 9:26:15 PM com.tagtraum.perf.gcviewer.imp.DataReaderUnifiedJvmLogging lineContainsParseableEvent
+INFO:  Version: 17.0.19+10-LTS (release)
+Nov 20, 2026 9:26:15 PM com.tagtraum.perf.gcviewer.imp.DataReaderUnifiedJvmLogging lineContainsParseableEvent
+INFO:  CPUs: 10 total, 10 available
+Nov 20, 2026 9:26:15 PM com.tagtraum.perf.gcviewer.imp.DataReaderUnifiedJvmLogging lineContainsParseableEvent
+INFO:  Memory: 16384M
+Nov 20, 2026 9:26:15 PM com.tagtraum.perf.gcviewer.imp.DataReaderUnifiedJvmLogging lineContainsParseableEvent
+INFO:  Large Page Support: Disabled
+Nov 20, 2026 9:26:15 PM com.tagtraum.perf.gcviewer.imp.DataReaderUnifiedJvmLogging lineContainsParseableEvent
+INFO:  NUMA Support: Disabled
+Nov 20, 2026 9:26:15 PM com.tagtraum.perf.gcviewer.imp.DataReaderUnifiedJvmLogging lineContainsParseableEvent
+INFO:  Compressed Oops: Enabled (Zero based)
+Nov 20, 2026 9:26:15 PM com.tagtraum.perf.gcviewer.imp.DataReaderUnifiedJvmLogging lineContainsParseableEvent
+INFO:  Heap Region Size: 1M
+Nov 20, 2026 9:26:15 PM com.tagtraum.perf.gcviewer.imp.DataReaderUnifiedJvmLogging lineContainsParseableEvent
+INFO:  Heap Initial Capacity: 128M
+Nov 20, 2026 9:26:15 PM com.tagtraum.perf.gcviewer.imp.DataReaderUnifiedJvmLogging lineContainsParseableEvent
+INFO:  Pre-touch: Disabled
+Nov 20, 2026 9:26:15 PM com.tagtraum.perf.gcviewer.imp.DataReaderUnifiedJvmLogging lineContainsParseableEvent
+INFO:  Parallel Workers: 9
+Nov 20, 2026 9:26:15 PM com.tagtraum.perf.gcviewer.imp.DataReaderUnifiedJvmLogging lineContainsParseableEvent
+INFO:  Concurrent Workers: 2
+Nov 20, 2026 9:26:15 PM com.tagtraum.perf.gcviewer.imp.DataReaderUnifiedJvmLogging lineContainsParseableEvent
+INFO:  Concurrent Refinement Workers: 9
+Nov 20, 2026 9:26:15 PM com.tagtraum.perf.gcviewer.imp.DataReaderUnifiedJvmLogging lineContainsParseableEvent
+INFO:  Periodic GC: Disabled
+Nov 20, 2026 9:26:15 PM com.tagtraum.perf.gcviewer.imp.DataReaderUnifiedJvmLogging read
+INFO: Reading done.
+Nov 20, 2026 9:26:15 PM com.tagtraum.perf.gcviewer.view.model.GCPreferences getIntValue
+INFO: could not read property 'window.width' from /Users/che1nov/gcviewer.properties; using default: 800
+Nov 20, 2026 9:26:15 PM com.tagtraum.perf.gcviewer.view.model.GCPreferences getIntValue
+INFO: could not read property 'window.height' from /Users/che1nov/gcviewer.properties; using default: 600
+Nov 20, 2026 9:26:15 PM com.tagtraum.perf.gcviewer.GCViewer doMain
+INFO: export completed successfully

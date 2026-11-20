@@ -1,0 +1,184 @@
+
+[INFO] Started opening dump /Users/che1nov/Projects/Теория и практика многопоточности/gc-memory-lab/results/leak/heap.hprof at 2026-11-20T21:27:25.016755+04:00[Europe/Samara]
+[Task: Reopening parsed heap dump file
+[.........]
+
+Subtask: Leak Suspects
+[
+Subtask: System Overview
+[
+Subtask: System Overview
+Test 'Heap Dump Overview' of section 'System Overview'
+[
+Subtask: System Overview
+Test 'Heap Dump Overview' of section 'System Overview'
+[
+Subtask: System Overview
+Test 'Heap Dump Overview' of section 'System Overview': Extracting Key Value Pairs...
+[
+Subtask: System Overview
+Test 'Heap Dump Overview' of section 'System Overview': Extracting Key Value Pairs...: java.util.Properties
+[
+Subtask: System Overview
+Test 'System Properties' of section 'System Overview'
+[
+Subtask: System Overview
+Test 'System Properties' of section 'System Overview'
+[
+Subtask: System Overview
+Test 'System Properties' of section 'System Overview': Extracting Key Value Pairs...
+[
+Subtask: System Overview
+Test 'System Properties' of section 'System Overview': Extracting Key Value Pairs...: java.util.Properties
+[
+Subtask: System Overview
+Test 'Thread Overview' of section 'System Overview'
+[
+Subtask: System Overview
+Test 'Thread Overview' of section 'System Overview'
+[
+Subtask: System Overview
+Test 'Thread Overview' of section 'System Overview': Searching Threads...
+[
+Subtask: System Overview
+Test 'Top Consumers' of section 'System Overview'
+[
+Subtask: System Overview
+Test 'Top Consumers' of section 'System Overview'
+[
+Subtask: System Overview
+Test 'Top Consumers' of section 'System Overview': Top Consumers
+[
+Subtask: System Overview
+Test 'Top Consumers' of section 'System Overview': Top Consumers: Creating histogram
+[
+Subtask: System Overview
+Test 'Top Consumers' of section 'System Overview': Top Consumers: Grouping by package
+[
+Subtask: System Overview
+Test 'Top Consumers' of section 'System Overview': Top Consumers
+[
+Subtask: System Overview
+Test 'Top Consumers' of section 'System Overview': Top Consumers: Test 'Biggest Objects (Overview)' of section 'Top Consumers'
+[
+Subtask: System Overview
+Test 'Top Consumers' of section 'System Overview': Top Consumers: Test 'Biggest Objects' of section 'Top Consumers'
+[
+Subtask: System Overview
+Test 'Top Consumers' of section 'System Overview': Top Consumers: Test 'Biggest Top-Level Dominator Classes (Overview)' of section 'Top Consumers'
+[
+Subtask: System Overview
+Test 'Top Consumers' of section 'System Overview': Top Consumers: Test 'Biggest Top-Level Dominator Classes' of section 'Top Consumers'
+[
+Subtask: System Overview
+Test 'Top Consumers' of section 'System Overview': Top Consumers: Test 'Biggest Top-Level Dominator Class Loaders (Overview)' of section 'Top Consumers'
+[
+Subtask: System Overview
+Test 'Top Consumers' of section 'System Overview': Top Consumers: Test 'Biggest Top-Level Dominator Class Loaders' of section 'Top Consumers'
+[
+Subtask: System Overview
+Test 'Top Consumers' of section 'System Overview': Top Consumers: Test 'Biggest Top-Level Dominator Packages' of section 'Top Consumers'
+[
+Subtask: System Overview
+Test 'Class Histogram' of section 'System Overview'
+[
+Subtask: System Overview
+Test 'Class Histogram' of section 'System Overview'
+[
+Subtask: Test 'Leaks' of section 'Leak Suspects'
+[
+Subtask: Test 'Leaks' of section 'Leak Suspects'
+[
+Subtask: Test 'Leaks' of section 'Leak Suspects'
+Finding problem suspects
+[
+Subtask: Test 'Leaks' of section 'Leak Suspects'
+Find Leaks
+[
+Subtask: Test 'Leaks' of section 'Leak Suspects'
+Find Leaks: Searching suspicious single objects...
+[
+Subtask: Test 'Leaks' of section 'Leak Suspects'
+Find Leaks: Searching suspicious groups of objects...
+[
+Subtask: Test 'Leaks' of section 'Leak Suspects'
+Find Leaks: building histogram
+[
+Subtask: Test 'Leaks' of section 'Leak Suspects'
+Find Leaks: Build Result
+[
+Subtask: Test 'Leaks' of section 'Leak Suspects'
+Find Leaks: Preparing results
+[
+Subtask: Test 'Leaks' of section 'Leak Suspects'
+Find Leaks: Find Leaks
+[
+Subtask: Test 'Leaks' of section 'Leak Suspects'
+Find Leaks: Find Leaks: Leak Description of a Suspect as a Single Object
+[
+Subtask: Test 'Leaks' of section 'Leak Suspects'
+Find Leaks: Find Leaks: Leak Description of a Suspect as a Single Object: building histogram
+[
+Subtask: Test 'Leaks' of section 'Leak Suspects'
+Find Leaks: Find Leaks: Leak Description of a Suspect as a Single Object: Retained set '[Objects]'
+[
+Subtask: Test 'Leaks' of section 'Leak Suspects'
+Find Leaks: Find Leaks: Leak Description of a Suspect as a Single Object: Retained set '[Objects]': building histogram
+[
+Subtask: Test 'Leaks' of section 'Leak Suspects'
+Find Leaks: Find Leaks: Finding paths
+[
+Subtask: Test 'Leaks' of section 'Leak Suspects'
+Leaks
+[
+Subtask: Test 'Leaks' of section 'Leak Suspects'
+Leaks: Test 'Overview' of section 'Leaks'
+[
+Subtask: Test 'Leaks' of section 'Leak Suspects'
+Leaks: Test 'Problem Suspect 1' of section 'Leaks'
+[
+Subtask: Test 'Leaks' of section 'Leak Suspects'
+Leaks: Test 'Problem Suspect 1' of section 'Leaks'
+[
+Subtask: Test 'Leaks' of section 'Leak Suspects'
+Leaks: Test 'Problem Suspect 1' of section 'Leaks': Problem Suspect 1
+[
+Subtask: Test 'Leaks' of section 'Leak Suspects'
+Leaks: Test 'Problem Suspect 1' of section 'Leaks': Problem Suspect 1: Test 'Description' of section 'Problem Suspect 1'
+[
+Subtask: Test 'Leaks' of section 'Leak Suspects'
+Leaks: Test 'Problem Suspect 1' of section 'Leaks': Problem Suspect 1: Test 'Shortest Paths To the Accumulation Point' of section 'Problem Suspect 1'
+[
+Subtask: Test 'Leaks' of section 'Leak Suspects'
+Leaks: Test 'Problem Suspect 1' of section 'Leaks': Problem Suspect 1: Test 'Shortest Paths To the Accumulation Point' of section 'Problem Suspect 1'
+[
+Subtask: Test 'Leaks' of section 'Leak Suspects'
+Leaks: Test 'Problem Suspect 1' of section 'Leaks': Problem Suspect 1: Test 'Shortest Paths To the Accumulation Point' of section 'Problem Suspect 1': Test 'Shortest Paths To the Accumulation Point' of section 'Problem Suspect 1'
+[
+Subtask: Test 'Leaks' of section 'Leak Suspects'
+Leaks: Test 'Problem Suspect 1' of section 'Leaks': Problem Suspect 1: Test 'Accumulated Objects in Dominator Tree' of section 'Problem Suspect 1'
+[
+Subtask: Test 'Leaks' of section 'Leak Suspects'
+Leaks: Test 'Problem Suspect 1' of section 'Leaks': Problem Suspect 1: Test 'Accumulated Objects in Dominator Tree' of section 'Problem Suspect 1'
+[
+Subtask: Test 'Leaks' of section 'Leak Suspects'
+Leaks: Test 'Problem Suspect 1' of section 'Leaks': Problem Suspect 1: Test 'Accumulated Objects in Dominator Tree' of section 'Problem Suspect 1': Test 'Accumulated Objects in Dominator Tree' of section 'Problem Suspect 1'
+[
+Subtask: Test 'Leaks' of section 'Leak Suspects'
+Leaks: Test 'Problem Suspect 1' of section 'Leaks': Problem Suspect 1: Test 'Accumulated Objects by Class in Dominator Tree' of section 'Problem Suspect 1'
+[
+Subtask: Test 'Leaks' of section 'Leak Suspects'
+Leaks: Test 'Problem Suspect 1' of section 'Leaks': Problem Suspect 1: Test 'Accumulated Objects by Class in Dominator Tree' of section 'Problem Suspect 1'
+[
+Subtask: Test 'Leaks' of section 'Leak Suspects'
+Leaks: Test 'Problem Suspect 1' of section 'Leaks': Problem Suspect 1: Test 'Accumulated Objects by Class in Dominator Tree' of section 'Problem Suspect 1': Test 'Accumulated Objects by Class in Dominator Tree' of section 'Problem Suspect 1'
+[
+Subtask: Test 'Leaks' of section 'Leak Suspects'
+Leaks: Test 'Problem Suspect 1' of section 'Leaks': Problem Suspect 1: Test 'All Accumulated Objects by Class' of section 'Problem Suspect 1'
+[
+Subtask: Test 'Leaks' of section 'Leak Suspects'
+Leaks: Test 'Problem Suspect 1' of section 'Leaks': Problem Suspect 1: Test 'All Accumulated Objects by Class' of section 'Problem Suspect 1'
+[
+Subtask: Test 'Leaks' of section 'Leak Suspects'
+Leaks: Test 'Problem Suspect 1' of section 'Leaks': Problem Suspect 1: Test 'All Accumulated Objects by Class' of section 'Problem Suspect 1': Test 'All Accumulated Objects by Class' of section 'Problem Suspect 1'
+[

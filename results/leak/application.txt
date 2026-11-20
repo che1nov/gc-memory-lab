@@ -1,0 +1,1 @@
+mode=leak pid=36485 max_heap_bytes=134217728 java=17.0.19

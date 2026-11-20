@@ -1,0 +1,440 @@
+{
+  "leak": {
+    "samples": 94,
+    "first_sample": {
+      "elapsed_seconds": 0.024,
+      "retained_objects": 0.0,
+      "payload_bytes": 0.0,
+      "heap_used_bytes": 3047424.0,
+      "gc_count": 0.0,
+      "gc_time_ms": 0.0
+    },
+    "last_sample": {
+      "elapsed_seconds": 93.537,
+      "retained_objects": 1856.0,
+      "payload_bytes": 121634816.0,
+      "heap_used_bytes": 124623392.0,
+      "gc_count": 16.0,
+      "gc_time_ms": 46.0
+    },
+    "max_heap_used_mib": 118.85012817382812,
+    "max_retained_objects": 1856,
+    "gc_pause_count": 33,
+    "full_gc_count": 5,
+    "pause_sum_ms": 68.061,
+    "pause_max_ms": 11.118,
+    "pauses": [
+      {
+        "uptime_seconds": 15.369,
+        "gc_id": 0,
+        "event": "Pause Young (Normal) (G1 Evacuation Pause) 23M->22M(128M)",
+        "pause_ms": 5.972,
+        "before_mib": 23,
+        "after_mib": 22
+      },
+      {
+        "uptime_seconds": 25.871,
+        "gc_id": 1,
+        "event": "Pause Young (Normal) (G1 Evacuation Pause) 36M->35M(128M)",
+        "pause_ms": 4.136,
+        "before_mib": 36,
+        "after_mib": 35
+      },
+      {
+        "uptime_seconds": 44.044,
+        "gc_id": 2,
+        "event": "Pause Young (Normal) (G1 Evacuation Pause) 59M->59M(128M)",
+        "pause_ms": 4.318,
+        "before_mib": 59,
+        "after_mib": 59
+      },
+      {
+        "uptime_seconds": 56.171,
+        "gc_id": 3,
+        "event": "Pause Young (Normal) (G1 Evacuation Pause) 75M->75M(128M)",
+        "pause_ms": 4.184,
+        "before_mib": 75,
+        "after_mib": 75
+      },
+      {
+        "uptime_seconds": 64.241,
+        "gc_id": 4,
+        "event": "Pause Young (Concurrent Start) (G1 Evacuation Pause) 86M->86M(128M)",
+        "pause_ms": 3.812,
+        "before_mib": 86,
+        "after_mib": 86
+      },
+      {
+        "uptime_seconds": 64.246,
+        "gc_id": 5,
+        "event": "Pause Remark 86M->86M(128M)",
+        "pause_ms": 1.462,
+        "before_mib": 86,
+        "after_mib": 86
+      },
+      {
+        "uptime_seconds": 64.246,
+        "gc_id": 5,
+        "event": "Pause Cleanup 86M->86M(128M)",
+        "pause_ms": 0.042,
+        "before_mib": 86,
+        "after_mib": 86
+      },
+      {
+        "uptime_seconds": 70.221,
+        "gc_id": 6,
+        "event": "Pause Full (Heap Dump Initiated GC) 94M->88M(128M)",
+        "pause_ms": 4.752,
+        "before_mib": 94,
+        "after_mib": 88
+      },
+      {
+        "uptime_seconds": 70.318,
+        "gc_id": 7,
+        "event": "Pause Full (Heap Inspection Initiated GC) 89M->88M(128M)",
+        "pause_ms": 1.315,
+        "before_mib": 89,
+        "after_mib": 88
+      },
+      {
+        "uptime_seconds": 75.146,
+        "gc_id": 8,
+        "event": "Pause Young (Concurrent Start) (G1 Evacuation Pause) 94M->94M(128M)",
+        "pause_ms": 2.0,
+        "before_mib": 94,
+        "after_mib": 94
+      },
+      {
+        "uptime_seconds": 75.15,
+        "gc_id": 9,
+        "event": "Pause Remark 95M->95M(128M)",
+        "pause_ms": 0.446,
+        "before_mib": 95,
+        "after_mib": 95
+      },
+      {
+        "uptime_seconds": 75.151,
+        "gc_id": 9,
+        "event": "Pause Cleanup 95M->95M(128M)",
+        "pause_ms": 0.051,
+        "before_mib": 95,
+        "after_mib": 95
+      },
+      {
+        "uptime_seconds": 78.78,
+        "gc_id": 10,
+        "event": "Pause Young (Normal) (G1 Evacuation Pause) 99M->99M(128M)",
+        "pause_ms": 1.74,
+        "before_mib": 99,
+        "after_mib": 99
+      },
+      {
+        "uptime_seconds": 82.412,
+        "gc_id": 11,
+        "event": "Pause Young (Concurrent Start) (G1 Evacuation Pause) 104M->104M(128M)",
+        "pause_ms": 0.872,
+        "before_mib": 104,
+        "after_mib": 104
+      },
+      {
+        "uptime_seconds": 82.414,
+        "gc_id": 12,
+        "event": "Pause Remark 104M->104M(128M)",
+        "pause_ms": 0.31,
+        "before_mib": 104,
+        "after_mib": 104
+      },
+      {
+        "uptime_seconds": 82.415,
+        "gc_id": 12,
+        "event": "Pause Cleanup 104M->104M(128M)",
+        "pause_ms": 0.038,
+        "before_mib": 104,
+        "after_mib": 104
+      },
+      {
+        "uptime_seconds": 86.453,
+        "gc_id": 13,
+        "event": "Pause Young (Normal) (G1 Evacuation Pause) 109M->109M(128M)",
+        "pause_ms": 1.454,
+        "before_mib": 109,
+        "after_mib": 109
+      },
+      {
+        "uptime_seconds": 89.282,
+        "gc_id": 14,
+        "event": "Pause Young (Concurrent Start) (G1 Preventive Collection) 113M->113M(128M)",
+        "pause_ms": 1.52,
+        "before_mib": 113,
+        "after_mib": 113
+      },
+      {
+        "uptime_seconds": 89.285,
+        "gc_id": 15,
+        "event": "Pause Remark 113M->113M(128M)",
+        "pause_ms": 0.454,
+        "before_mib": 113,
+        "after_mib": 113
+      },
+      {
+        "uptime_seconds": 89.286,
+        "gc_id": 15,
+        "event": "Pause Cleanup 113M->113M(128M)",
+        "pause_ms": 0.049,
+        "before_mib": 113,
+        "after_mib": 113
+      },
+      {
+        "uptime_seconds": 90.901,
+        "gc_id": 16,
+        "event": "Pause Young (Normal) (G1 Preventive Collection) 115M->115M(128M)",
+        "pause_ms": 1.299,
+        "before_mib": 115,
+        "after_mib": 115
+      },
+      {
+        "uptime_seconds": 91.708,
+        "gc_id": 17,
+        "event": "Pause Young (Concurrent Start) (G1 Preventive Collection) 116M->116M(128M)",
+        "pause_ms": 0.895,
+        "before_mib": 116,
+        "after_mib": 116
+      },
+      {
+        "uptime_seconds": 91.71,
+        "gc_id": 18,
+        "event": "Pause Remark 117M->117M(128M)",
+        "pause_ms": 0.298,
+        "before_mib": 117,
+        "after_mib": 117
+      },
+      {
+        "uptime_seconds": 91.711,
+        "gc_id": 18,
+        "event": "Pause Cleanup 117M->117M(128M)",
+        "pause_ms": 0.054,
+        "before_mib": 117,
+        "after_mib": 117
+      },
+      {
+        "uptime_seconds": 92.516,
+        "gc_id": 19,
+        "event": "Pause Young (Normal) (G1 Preventive Collection) 117M->117M(128M)",
+        "pause_ms": 0.619,
+        "before_mib": 117,
+        "after_mib": 117
+      },
+      {
+        "uptime_seconds": 93.335,
+        "gc_id": 20,
+        "event": "Pause Young (Concurrent Start) (G1 Preventive Collection) 118M->118M(128M)",
+        "pause_ms": 11.118,
+        "before_mib": 118,
+        "after_mib": 118
+      },
+      {
+        "uptime_seconds": 93.348,
+        "gc_id": 21,
+        "event": "Pause Remark 119M->119M(128M)",
+        "pause_ms": 0.356,
+        "before_mib": 119,
+        "after_mib": 119
+      },
+      {
+        "uptime_seconds": 93.349,
+        "gc_id": 21,
+        "event": "Pause Cleanup 119M->119M(128M)",
+        "pause_ms": 0.047,
+        "before_mib": 119,
+        "after_mib": 119
+      },
+      {
+        "uptime_seconds": 94.145,
+        "gc_id": 22,
+        "event": "Pause Young (Normal) (G1 Evacuation Pause) 119M->119M(128M)",
+        "pause_ms": 0.979,
+        "before_mib": 119,
+        "after_mib": 119
+      },
+      {
+        "uptime_seconds": 94.151,
+        "gc_id": 23,
+        "event": "Pause Full (G1 Compaction Pause) 119M->117M(128M)",
+        "pause_ms": 5.618,
+        "before_mib": 119,
+        "after_mib": 117
+      },
+      {
+        "uptime_seconds": 94.556,
+        "gc_id": 24,
+        "event": "Pause Young (Concurrent Start) (G1 Evacuation Pause) 118M->118M(128M)",
+        "pause_ms": 1.035,
+        "before_mib": 118,
+        "after_mib": 118
+      },
+      {
+        "uptime_seconds": 94.561,
+        "gc_id": 26,
+        "event": "Pause Full (G1 Compaction Pause) 118M->118M(128M)",
+        "pause_ms": 4.26,
+        "before_mib": 118,
+        "after_mib": 118
+      },
+      {
+        "uptime_seconds": 94.563,
+        "gc_id": 27,
+        "event": "Pause Full (G1 Compaction Pause) 118M->118M(128M)",
+        "pause_ms": 2.556,
+        "before_mib": 118,
+        "after_mib": 118
+      }
+    ],
+    "jstat_first": {
+      "Timestamp": 1.1,
+      "S0C": 0.0,
+      "S1C": 0.0,
+      "S0U": 0.0,
+      "S1U": 0.0,
+      "EC": 25600.0,
+      "EU": 4096.0,
+      "OC": 105472.0,
+      "OU": 0.0,
+      "MC": 0.0,
+      "MU": 0.0,
+      "CCSC": 0.0,
+      "CCSU": 0.0,
+      "YGC": 0.0,
+      "YGCT": 0.0,
+      "FGC": 0.0,
+      "FGCT": 0.0,
+      "CGC": 0.0,
+      "CGCT": 0.0,
+      "GCT": 0.0
+    },
+    "jstat_last": {
+      "Timestamp": 94.5,
+      "S0C": 0.0,
+      "S1C": 0.0,
+      "S0U": 0.0,
+      "S1U": 0.0,
+      "EC": 7168.0,
+      "EU": 0.0,
+      "OC": 123904.0,
+      "OU": 121723.8,
+      "MC": 1344.0,
+      "MU": 1169.4,
+      "CCSC": 192.0,
+      "CCSU": 106.0,
+      "YGC": 16.0,
+      "YGCT": 0.043,
+      "FGC": 5.0,
+      "FGCT": 0.018,
+      "CGC": 12.0,
+      "CGCT": 0.003,
+      "GCT": 0.065
+    }
+  },
+  "bounded": {
+    "samples": 121,
+    "first_sample": {
+      "elapsed_seconds": 0.036,
+      "retained_objects": 0.0,
+      "payload_bytes": 0.0,
+      "heap_used_bytes": 3047424.0,
+      "gc_count": 0.0,
+      "gc_time_ms": 0.0
+    },
+    "last_sample": {
+      "elapsed_seconds": 120.355,
+      "retained_objects": 64.0,
+      "payload_bytes": 4194304.0,
+      "heap_used_bytes": 72766128.0,
+      "gc_count": 4.0,
+      "gc_time_ms": 8.0
+    },
+    "max_heap_used_mib": 69.39518737792969,
+    "max_retained_objects": 64,
+    "gc_pause_count": 4,
+    "full_gc_count": 2,
+    "pause_sum_ms": 10.203,
+    "pause_max_ms": 3.832,
+    "pauses": [
+      {
+        "uptime_seconds": 15.792,
+        "gc_id": 0,
+        "event": "Pause Young (Normal) (G1 Evacuation Pause) 23M->5M(128M)",
+        "pause_ms": 2.861,
+        "before_mib": 23,
+        "after_mib": 5
+      },
+      {
+        "uptime_seconds": 45.687,
+        "gc_id": 1,
+        "event": "Pause Young (Normal) (G1 Evacuation Pause) 45M->7M(128M)",
+        "pause_ms": 2.432,
+        "before_mib": 45,
+        "after_mib": 7
+      },
+      {
+        "uptime_seconds": 70.573,
+        "gc_id": 2,
+        "event": "Pause Full (Heap Dump Initiated GC) 40M->5M(128M)",
+        "pause_ms": 3.832,
+        "before_mib": 40,
+        "after_mib": 5
+      },
+      {
+        "uptime_seconds": 70.639,
+        "gc_id": 3,
+        "event": "Pause Full (Heap Inspection Initiated GC) 5M->5M(128M)",
+        "pause_ms": 1.078,
+        "before_mib": 5,
+        "after_mib": 5
+      }
+    ],
+    "jstat_first": {
+      "Timestamp": 1.1,
+      "S0C": 0.0,
+      "S1C": 0.0,
+      "S0U": 0.0,
+      "S1U": 0.0,
+      "EC": 25600.0,
+      "EU": 2048.0,
+      "OC": 105472.0,
+      "OU": 0.0,
+      "MC": 0.0,
+      "MU": 0.0,
+      "CCSC": 0.0,
+      "CCSU": 0.0,
+      "YGC": 0.0,
+      "YGCT": 0.0,
+      "FGC": 0.0,
+      "FGCT": 0.0,
+      "CGC": 0.0,
+      "CGCT": 0.0,
+      "GCT": 0.0
+    },
+    "jstat_last": {
+      "Timestamp": 119.5,
+      "S0C": 0.0,
+      "S1C": 0.0,
+      "S0U": 0.0,
+      "S1U": 0.0,
+      "EC": 81920.0,
+      "EU": 64512.0,
+      "OC": 49152.0,
+      "OU": 5524.7,
+      "MC": 1344.0,
+      "MU": 1175.9,
+      "CCSC": 192.0,
+      "CCSU": 109.5,
+      "YGC": 2.0,
+      "YGCT": 0.005,
+      "FGC": 2.0,
+      "FGCT": 0.005,
+      "CGC": 0.0,
+      "CGCT": 0.0,
+      "GCT": 0.009
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "java_version": "openjdk version \"17.0.19\" 2026-04-21 LTS\nOpenJDK Runtime Environment Corretto-17.0.19.10.1 (build 17.0.19+10-LTS)\nOpenJDK 64-Bit Server VM Corretto-17.0.19.10.1 (build 17.0.19+10-LTS, mixed mode, sharing)\n",
+  "heap_mib": 128,
+  "chunk_bytes": 65536,
+  "allocation_mib_per_second_target": 1.25,
+  "dump_at_seconds_target": 70,
+  "duration_seconds_target": 120,
+  "bounded_items": 64,
+  "runs": [
+    {
+      "mode": "leak",
+      "exit_code": 3,
+      "dump_created": true,
+      "jvm_flags": [
+        "-Xms128m",
+        "-Xmx128m",
+        "-XX:+UseG1GC",
+        "-XX:+ExitOnOutOfMemoryError",
+        "-Xlog:gc*=info:file=gc.log:uptime,level,tags:filecount=0"
+      ]
+    },
+    {
+      "mode": "bounded",
+      "exit_code": 0,
+      "dump_created": true,
+      "jvm_flags": [
+        "-Xms128m",
+        "-Xmx128m",
+        "-XX:+UseG1GC",
+        "-XX:+ExitOnOutOfMemoryError",
+        "-Xlog:gc*=info:file=gc.log:uptime,level,tags:filecount=0"
+      ]
+    }
+  ]
+}

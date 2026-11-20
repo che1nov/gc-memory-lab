@@ -1,0 +1,11 @@
+/.tools/
+/build/
+/.runtime/
+*.hprof
+*.hprof.*
+*.log.*
+*.index
+*.threads
+results/*/mat-report/
+__pycache__/
+.DS_Store

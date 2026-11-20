@@ -1,0 +1,3 @@
+36487:
+Dumping heap to heap.hprof ...
+Heap dump file created [8192903 bytes in 0.012 secs]

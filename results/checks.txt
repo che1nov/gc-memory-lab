@@ -1,0 +1,9 @@
+Java compilation: passed (--release 17)
+Leak exit code: 3 (expected 3)
+Bounded exit code: 0 (expected 0)
+jcmd: both heap dumps created
+Leak final GC uptime: 94.563 seconds (expected 60..120)
+Bounded retained object cap: 64 (expected 64)
+GCViewer: pause counts and sums match original GC logs in both modes
+Eclipse MAT: both Leak Suspects reports generated successfully
+Local Markdown links: checked
